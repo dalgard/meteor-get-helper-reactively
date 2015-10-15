@@ -11,7 +11,7 @@ Package.onUse(function (api) {
 
   api.use([
     "ecmascript",
-    "templating",
+    "blaze",
     "stevezhu:lodash@3.10.1"
   ], "client");
 
