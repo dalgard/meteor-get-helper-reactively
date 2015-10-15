@@ -12,6 +12,7 @@ Package.onUse(function (api) {
   api.use([
     "ecmascript",
     "blaze",
+    "tracker",
     "stevezhu:lodash@3.10.1"
   ], "client");
 
