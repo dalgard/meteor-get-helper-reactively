@@ -7,3 +7,5 @@ This package is a solution for issue [#5194](https://github.com/meteor/meteor/is
 
 It works by wrapping the two Blaze methods `Template.prototype.helpers` and `Blaze._getTemplateHelper`.
 
+**Note:** The Blaze source contains a comment above `Blaze.View.prototype.lookup` stating that "This function must not establish any reactive dependencies itself". I haven't been able to deduce the implications of this ("itself"?), but consider yourself cautioned.
+
