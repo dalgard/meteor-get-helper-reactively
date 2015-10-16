@@ -19,16 +19,21 @@ Package.onUse(function (api) {
   api.addFiles("lib/get-helper-reactively.js", "client");
 });
 
-Package.onTest(function (api) {
-  api.versionsFrom("METEOR@1.2.0.2");
+// Package.onTest(function (api) {
+//   api.versionsFrom("METEOR@1.2.0.2");
 
-  api.use([
-    "tinytest",
-    "nordlys:get-helper-reactively@0.1.0"
-  ], "client");
+//   api.use([
+//     "blaze-html-templates",
+//     "tinytest"
+//   ]);
 
-  api.addFiles([
-    "tests/test.html",
-    "tests/test.js"
-  ], "client");
-});
+//   api.use([
+//     "blaze",
+//     "nordlys:get-helper-reactively@0.1.0"
+//   ], "client");
+
+//   api.addFiles([
+//     "tests/test.html",
+//     "tests/test.js"
+//   ], "client");
+// });
