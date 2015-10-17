@@ -2,7 +2,7 @@ Package.describe({
   name: "nordlys:get-helper-reactively",
   version: "0.1.0",
   summary: "Blaze extension for getting and setting template helpers reactively",
-  git: "https://github.com/nordlys-io/meteor-get-helper-reactively",
+  git: "https://github.com/nordlys/meteor-get-helper-reactively",
   documentation: "README.md"
 });
 
