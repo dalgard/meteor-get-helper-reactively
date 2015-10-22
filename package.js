@@ -1,8 +1,8 @@
 Package.describe({
-  name: "nordlys:get-helper-reactively",
+  name: "dalgard:get-helper-reactively",
   version: "0.1.0",
   summary: "Blaze extension for getting and setting template helpers reactively",
-  git: "https://github.com/nordlys/meteor-get-helper-reactively",
+  git: "https://github.com/dalgard/meteor-get-helper-reactively",
   documentation: "README.md"
 });
 
@@ -29,7 +29,7 @@ Package.onUse(function (api) {
 
 //   api.use([
 //     "blaze",
-//     "nordlys:get-helper-reactively@0.1.0"
+//     "dalgard:get-helper-reactively@0.1.0"
 //   ], "client");
 
 //   api.addFiles([
